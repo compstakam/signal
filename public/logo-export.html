@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+  * { margin: 0; padding: 0; }
+  body { background: transparent; }
+  .dark-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: #0a1628;
+    padding: 20px 32px 20px 20px;
+    border-radius: 16px;
+  }
+  .light-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 20px 32px 20px 20px;
+  }
+  .dark-logo .text { color: white; font-family: Montserrat, sans-serif; font-weight: 700; font-size: 36px; letter-spacing: 3px; }
+  .light-logo .text { color: #0a1628; font-family: Montserrat, sans-serif; font-weight: 700; font-size: 36px; letter-spacing: 3px; }
+</style>
+</head>
+<body style="padding:20px; display:flex; flex-direction:column; gap:30px;">
+  <div class="dark-logo" id="dark">
+    <svg width="64" height="60" viewBox="0 0 40 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="2" y="22" width="6" height="14" fill="#228FFF" />
+      <rect x="10" y="16" width="7" height="20" fill="#22D4FF" />
+      <rect x="19" y="8" width="7" height="28" fill="#228FFF" />
+      <rect x="28" y="20" width="6" height="16" fill="#22D4FF" />
+      <rect x="4" y="25" width="2" height="2" rx="0.3" fill="#0a1628" opacity="0.4" />
+      <rect x="4" y="29" width="2" height="2" rx="0.3" fill="#0a1628" opacity="0.4" />
+      <rect x="12" y="19" width="2" height="2" rx="0.3" fill="#0a1628" opacity="0.4" />
+      <rect x="12" y="23" width="2" height="2" rx="0.3" fill="#0a1628" opacity="0.4" />
+      <rect x="12" y="27" width="2" height="2" rx="0.3" fill="#0a1628" opacity="0.4" />
+      <rect x="21" y="11" width="2" height="2" rx="0.3" fill="#0a1628" opacity="0.4" />
+      <rect x="21" y="15" width="2" height="2" rx="0.3" fill="#0a1628" opacity="0.4" />
+      <rect x="21" y="19" width="2" height="2" rx="0.3" fill="#0a1628" opacity="0.4" />
+      <rect x="21" y="23" width="2" height="2" rx="0.3" fill="#0a1628" opacity="0.4" />
+      <rect x="30" y="23" width="2" height="2" rx="0.3" fill="#0a1628" opacity="0.4" />
+      <rect x="30" y="27" width="2" height="2" rx="0.3" fill="#0a1628" opacity="0.4" />
+      <circle cx="22.5" cy="5" r="1.5" fill="#22D4FF" />
+      <path d="M16.5 5 A6 6 0 0 1 28.5 5" stroke="#22D4FF" stroke-width="1.2" fill="none" opacity="0.7" stroke-linecap="round" transform="rotate(-90, 22.5, 5)" />
+      <path d="M14 5 A8.5 8.5 0 0 1 31 5" stroke="#22D4FF" stroke-width="1" fill="none" opacity="0.45" stroke-linecap="round" transform="rotate(-90, 22.5, 5)" />
+      <path d="M11.5 5 A11 11 0 0 1 33.5 5" stroke="#22D4FF" stroke-width="0.8" fill="none" opacity="0.2" stroke-linecap="round" transform="rotate(-90, 22.5, 5)" />
+    </svg>
+    <span class="text">SIGNAL</span>
+  </div>
+
+  <div class="light-logo" id="light">
+    <svg width="64" height="60" viewBox="0 0 40 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="2" y="22" width="6" height="14" fill="#228FFF" />
+      <rect x="10" y="16" width="7" height="20" fill="#22D4FF" />
+      <rect x="19" y="8" width="7" height="28" fill="#228FFF" />
+      <rect x="28" y="20" width="6" height="16" fill="#22D4FF" />
+      <rect x="4" y="25" width="2" height="2" rx="0.3" fill="white" opacity="0.5" />
+      <rect x="4" y="29" width="2" height="2" rx="0.3" fill="white" opacity="0.5" />
+      <rect x="12" y="19" width="2" height="2" rx="0.3" fill="white" opacity="0.5" />
+      <rect x="12" y="23" width="2" height="2" rx="0.3" fill="white" opacity="0.5" />
+      <rect x="12" y="27" width="2" height="2" rx="0.3" fill="white" opacity="0.5" />
+      <rect x="21" y="11" width="2" height="2" rx="0.3" fill="white" opacity="0.5" />
+      <rect x="21" y="15" width="2" height="2" rx="0.3" fill="white" opacity="0.5" />
+      <rect x="21" y="19" width="2" height="2" rx="0.3" fill="white" opacity="0.5" />
+      <rect x="21" y="23" width="2" height="2" rx="0.3" fill="white" opacity="0.5" />
+      <rect x="30" y="23" width="2" height="2" rx="0.3" fill="white" opacity="0.5" />
+      <rect x="30" y="27" width="2" height="2" rx="0.3" fill="white" opacity="0.5" />
+      <circle cx="22.5" cy="5" r="1.5" fill="#22D4FF" />
+      <path d="M16.5 5 A6 6 0 0 1 28.5 5" stroke="#22D4FF" stroke-width="1.2" fill="none" opacity="0.7" stroke-linecap="round" transform="rotate(-90, 22.5, 5)" />
+      <path d="M14 5 A8.5 8.5 0 0 1 31 5" stroke="#22D4FF" stroke-width="1" fill="none" opacity="0.45" stroke-linecap="round" transform="rotate(-90, 22.5, 5)" />
+      <path d="M11.5 5 A11 11 0 0 1 33.5 5" stroke="#22D4FF" stroke-width="0.8" fill="none" opacity="0.2" stroke-linecap="round" transform="rotate(-90, 22.5, 5)" />
+    </svg>
+    <span class="text">SIGNAL</span>
+  </div>
+</body>
+</html>

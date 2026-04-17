@@ -1,0 +1,40 @@
+<svg width="280" height="80" viewBox="0 0 280 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark background -->
+  <rect width="280" height="80" rx="12" fill="#0a1628"/>
+
+  <!-- City skyline scaled up 2x, centered vertically -->
+  <g transform="translate(16, 4) scale(2)">
+    <!-- Building 1 - short left -->
+    <rect x="2" y="22" width="6" height="14" fill="#228FFF" />
+    <!-- Building 2 - medium -->
+    <rect x="10" y="16" width="7" height="20" fill="#22D4FF" />
+    <!-- Building 3 - tallest (beacon source) -->
+    <rect x="19" y="8" width="7" height="28" fill="#228FFF" />
+    <!-- Building 4 - medium-short right -->
+    <rect x="28" y="20" width="6" height="16" fill="#22D4FF" />
+
+    <!-- Building windows -->
+    <rect x="4" y="25" width="2" height="2" rx="0.3" fill="#0a1628" opacity="0.4" />
+    <rect x="4" y="29" width="2" height="2" rx="0.3" fill="#0a1628" opacity="0.4" />
+    <rect x="12" y="19" width="2" height="2" rx="0.3" fill="#0a1628" opacity="0.4" />
+    <rect x="12" y="23" width="2" height="2" rx="0.3" fill="#0a1628" opacity="0.4" />
+    <rect x="12" y="27" width="2" height="2" rx="0.3" fill="#0a1628" opacity="0.4" />
+    <rect x="21" y="11" width="2" height="2" rx="0.3" fill="#0a1628" opacity="0.4" />
+    <rect x="21" y="15" width="2" height="2" rx="0.3" fill="#0a1628" opacity="0.4" />
+    <rect x="21" y="19" width="2" height="2" rx="0.3" fill="#0a1628" opacity="0.4" />
+    <rect x="21" y="23" width="2" height="2" rx="0.3" fill="#0a1628" opacity="0.4" />
+    <rect x="30" y="23" width="2" height="2" rx="0.3" fill="#0a1628" opacity="0.4" />
+    <rect x="30" y="27" width="2" height="2" rx="0.3" fill="#0a1628" opacity="0.4" />
+
+    <!-- Beacon dot -->
+    <circle cx="22.5" cy="5" r="1.5" fill="#22D4FF" />
+
+    <!-- Radiating beacon arcs -->
+    <path d="M16.5 5 A6 6 0 0 1 28.5 5" stroke="#22D4FF" stroke-width="1.2" fill="none" opacity="0.7" stroke-linecap="round" transform="rotate(-90, 22.5, 5)" />
+    <path d="M14 5 A8.5 8.5 0 0 1 31 5" stroke="#22D4FF" stroke-width="1" fill="none" opacity="0.45" stroke-linecap="round" transform="rotate(-90, 22.5, 5)" />
+    <path d="M11.5 5 A11 11 0 0 1 33.5 5" stroke="#22D4FF" stroke-width="0.8" fill="none" opacity="0.2" stroke-linecap="round" transform="rotate(-90, 22.5, 5)" />
+  </g>
+
+  <!-- SIGNAL text -->
+  <text x="100" y="52" font-family="Montserrat, Arial, Helvetica, sans-serif" font-weight="700" font-size="28" fill="white" letter-spacing="2" text-transform="uppercase">SIGNAL</text>
+</svg>
